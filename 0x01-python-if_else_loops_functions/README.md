@@ -4,3 +4,4 @@ Script 2-print_alphabet.py prints alphabets characters
 Script 3-print_alphabt.py prints alphabets except q and e
  Script 4-print_hexa.py prints hexadecimals
 Script 5-print_comb2.py prints numbers
+Scrpt 6-print_comb3.py prints combinations of 2 digits
