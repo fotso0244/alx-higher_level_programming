@@ -6,3 +6,4 @@ Script 3-print_alphabt.py prints alphabets except q and e
 Script 5-print_comb2.py prints numbers
 Scrpt 6-print_comb3.py prints combinations of 2 digits
 Script 7-islower.py checks if a character is lowercase
+Script 8-uppercase.py prints a string in uppercase
