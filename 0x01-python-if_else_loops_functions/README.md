@@ -14,3 +14,4 @@ Script 12-fizzbuzz.pz prints numbers
 Code 13-insert_number.c inserts a new number in a linked list
 Script 100-print_tebahpla.py prints alphabet in reverse order
 Script 101-remove_char_at removes a char
+Script 102-magic_calculation.py processes calculation
