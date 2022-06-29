@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 import string
-for l in string.ascii_lowercase:
-    print("{}".format(l), end='')
+for lett in string.ascii_lowercase:
+    print("{}".format(lett), end='')
