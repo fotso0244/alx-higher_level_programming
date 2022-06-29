@@ -7,3 +7,5 @@ def uppercase(str):
                               - 32)) if test else "{}".format(str[i]), end='')
             if (len(str) and i == len(str) - 1):
                 print("", end='\n')
+    else:
+        print("", end='')
