@@ -9,3 +9,4 @@ Script 7-islower.py checks if a character is lowercase
 Script 8-uppercase.py prints a string in uppercase
 Script 9-prin_last_digit.py returns last digit of an integer
 Script 10-add.py adds 2 integers
+Script 11-pow.py returns the value of a^b
