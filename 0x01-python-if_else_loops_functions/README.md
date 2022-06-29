@@ -11,3 +11,4 @@ Script 9-prin_last_digit.py returns last digit of an integer
 Script 10-add.py adds 2 integers
 Script 11-pow.py returns the value of a^b
 Script 12-fizzbuzz.pz prints numbers
+Code 13-insert_number.c inserts a new number in a linked list
