@@ -1,0 +1,3 @@
+#!/bin/bash
+ex = "${PYFILE}c"
+pyinstaller --onefile $PYFILE --name ex
