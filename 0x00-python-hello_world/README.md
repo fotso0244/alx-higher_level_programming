@@ -3,3 +3,4 @@ Script 1-run_inline runs a python command
 Script 2-print.py prints a message
 Script 3-print_number.py prints a number folowed by a text
 Script 4-print_float.py prints a float number
+Script 5-print_string.py prints a string 3 times
