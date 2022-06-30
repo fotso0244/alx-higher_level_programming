@@ -8,3 +8,4 @@ Script 6-concat.py concatenates 2 strings
 Script 7-edges.py slices a string
 Script 8-concat_edges.py slices and concates strings
 Code 10-check_cycle.c checks a cycle in a linked list
+Script 100-write.py writes to stderr
