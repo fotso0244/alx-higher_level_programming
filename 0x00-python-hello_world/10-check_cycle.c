@@ -1,14 +1,14 @@
 #include "lists.h"
 int check_cycle(listint_t *list)
 {
-	listint_t *curr = list;
+	listint_t *fast = list, *slow = list;
 	int res = 0;
 
-	while (curr != NULL)
+	while (fast != NULL && fast->next != NULL)
 	{
-		if (curr->next != list)
-			curr = curr->next;
-		else
+		slow = slow->next;
+		fast = fast->next->next;
+		if (slow == fast)
 		{
 			res = 1;
 			break;
