@@ -7,3 +7,4 @@ Script 5-no_c.py replace c and C in a string
 Script 6-print_matrix_integer prints a matrix
 Script 7-add_tuple adds 2 tuples
 Script 8-multiple_returns returns multiple values
+Script 9-max_integer.py returns max of an integer list
