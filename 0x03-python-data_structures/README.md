@@ -10,3 +10,5 @@ Script 8-multiple_returns returns multiple values
 Script 9-max_integer.py returns max of an integer list
 Script 10-divisible_by_2 checks multiple of 2
 Script 11-delete_at deletes an element from a list
+Script 12-switch switches two integers
+Code 13-is_palindrome.c checks a palindrome linked list
