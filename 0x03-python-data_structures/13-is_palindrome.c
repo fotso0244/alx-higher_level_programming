@@ -57,8 +57,8 @@ int length(listint_t **head)
  */
 int is_palindrome(listint_t **head)
 {
-	int res = 1, i, *str1, *str2;
-	listint_t *curr1 = *head, *curr2;
+	int res = 1, i, *str1;
+	listint_t *curr1 = *head;
 
 	str1 = malloc(sizeof(*str1) * length(head));
 	for  (i = 0; i <= length(head) - 1; i++)
@@ -67,23 +67,21 @@ int is_palindrome(listint_t **head)
 		curr1 = curr1->next;
 	}
 	ReverseLL(head);
-	str2 = malloc(sizeof(*str2) * length(head));
-	curr2 = *head;
-	for (i = 0; i <= length(head) - 1; i++)
+	curr1 = *head;
+	i = 0;
+	while (curr1 != NULL)
 	{
-		str2[i] = curr2->n;
-		curr2 = curr2->next;
-	}
-	for (i = 0; i <= length(head) - 1; i++)
-	{
-		if (str2[i] != str1[i])
+		if (curr1->n == str1[i])
+		{
+			i++;
+			curr1 = curr1->next;
+		}
+		else
 		{
 			free(str1);
-			free(str2);
 			return (0);
 		}
 	}
 	free(str1);
-	free(str2);
 	return (res);
 }
