@@ -57,13 +57,13 @@ int length(listint_t **head)
  */
 int is_palindrome(listint_t **head)
 {
-	int res = 1, i, *str1;
+	int res = 1, i, *str1, l = length(head);
 	listint_t *curr1 = *head;
 
-	if (head == NULL || *head == NULL || length(head) == 0)
+	if (head == NULL || *head == NULL || l == 0)
 		return (1);
-	str1 = malloc(sizeof(*str1) * length(head));
-	for  (i = 0; i <= length(head) - 1; i++)
+	str1 = malloc(sizeof(*str1) * l);
+	for  (i = 0; i <= l - 1; i++)
 	{
 		str1[i] = curr1->n;
 		curr1 = curr1->next;
