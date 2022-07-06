@@ -77,7 +77,13 @@ int is_palindrome(listint_t **head)
 	for (i = 0; i <= length(head) - 1; i++)
 	{
 		if (str2[i] != str1[i])
+		{
+			free(str1);
+			free(str2);
 			return (0);
+		}
 	}
+	free(str1);
+	free(str2);
 	return (res);
 }
