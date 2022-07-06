@@ -60,6 +60,8 @@ int is_palindrome(listint_t **head)
 	int res = 1, i, *str1;
 	listint_t *curr1 = *head;
 
+	if (head == NULL || *head == NULL || length(head) == 0)
+		return (1);
 	str1 = malloc(sizeof(*str1) * length(head));
 	for  (i = 0; i <= length(head) - 1; i++)
 	{
