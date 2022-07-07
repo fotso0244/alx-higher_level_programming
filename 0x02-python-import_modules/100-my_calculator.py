@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 from calculator_1 import add, sub, div, mul
 import sys
+
+
 def check_op(x):
     """My check operator function
 
@@ -16,6 +18,8 @@ def check_op(x):
         if c == x:
             return 1
     return res
+
+
 if __name__ == "__main__":
     length = len(sys.argv)
     if length != 4:
