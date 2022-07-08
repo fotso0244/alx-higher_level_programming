@@ -18,9 +18,9 @@ def uniq_items(my_list):
 
 
 def uniq_add(my_list=[]):
+    res = 0
     if len(my_list) != 0:
         uniq = uniq_items(my_list)
-        res = 0
         for i in uniq:
             res += i
     return res
