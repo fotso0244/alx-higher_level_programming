@@ -12,3 +12,4 @@ Script 10-best_score returns a key with best score
 Code 11-multiply_list_map multiplies a list by a number
 Script 12-roman_to_int convert a roman string into integer
 Script 100-weight_average retrieves average of a list
+-a Script 101-square... computes a square of a matrix
