@@ -6,7 +6,7 @@ def roman_to_int(roman_string):
     i = 0
     num = 0
     s = roman_string
-    if (s is None or !isinstance(s, str)):
+    if (s is None or type(s) != str):
         return 0
     while i < len(s):
         if i + 1 < len(s) and s[i: i + 2] in roman:
