@@ -10,3 +10,4 @@ Script 8-simple_delate deletes a key from a dictionary
 Script 9-multiply_by_2 multplies a dictionary by 2
 Script 10-best_score returns a key with best score
 Code 11-multiply_list_map multiplies a list by a number
+Script 12-roman_to_int convert a roman string into integer
