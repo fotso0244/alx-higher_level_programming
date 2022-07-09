@@ -8,3 +8,4 @@ Script 6-print_sorted_dictionary sorts a dictionary
 Script 7-update_dictionary updates a dictionary
 Script 8-simple_delate deletes a key from a dictionary
 Script 9-multiply_by_2 multplies a dictionary by 2
+Script 10-best_score returns a key with best score
