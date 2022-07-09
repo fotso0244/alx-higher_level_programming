@@ -13,3 +13,4 @@ Code 11-multiply_list_map multiplies a list by a number
 Script 12-roman_to_int convert a roman string into integer
 Script 100-weight_average retrieves average of a list
 -a Script 101-square... computes a square of a matrix
+Script 102-complex_delete deletes keys from a dictionary
