@@ -38,11 +38,10 @@ void print_python_bytes(PyObject *p)
 		printf("\n");
 	}
 	else
-		if (!PyList_Check(p))
-		{
-			printf("%s", "[.] bytes object info\n");
-			printf("  [ERROR] Invalid Bytes Object\n");
-		}
+	{
+		printf("%s", "[.] bytes object info\n");
+		printf("  [ERROR] Invalid Bytes Object\n");
+	}
 }
 char *return_type(PyObject *p)
 {
