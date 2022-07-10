@@ -12,3 +12,4 @@ Script 10-divisible_by_2 checks multiple of 2
 Script 11-delete_at deletes an element from a list
 Script 12-switch switches two integers
 Code 13-is_palindrome.c checks a palindrome linked list
+Code 100-print_python_list_info prints bascic infos of a python list
