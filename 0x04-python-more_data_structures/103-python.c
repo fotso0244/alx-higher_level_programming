@@ -1,5 +1,12 @@
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
+int capacity(PyObject *p)
+{
+	int res;
+	PyObject *s = PyBytes_FromString("[]");
+	res = (sizeof(*p) - sizeof(*s)) / 8;printf("%lu\n", sizeof(s));
+	return (res);
+}
 void print_python_bytes(PyObject *p)
 {
 	Py_ssize_t l, i;
@@ -63,7 +70,7 @@ void print_python_list(PyObject *p)
 	n = PyList_Size(p);
 	printf("[*] Python list info\n");
 	printf("[*] Size of the Python List = %d\n", (int)n);
-	printf("[*] Allocated = %d\n", (int)n);
+	printf("[*] Allocated = %d\n", (int)((PyListObject *)p)->allocated);
 	if (n > 0)
 	{
 		for (i = 0; i <= n - 1; i++)
