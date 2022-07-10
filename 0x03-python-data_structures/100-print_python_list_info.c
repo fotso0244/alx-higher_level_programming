@@ -54,7 +54,7 @@ char *return_type(PyObject *p)
 		res = "str";
 	return (res);
 }
-void print_python_list(PyObject *p)
+void print_python_list_info(PyObject *p)
 {
 	Py_ssize_t i, n;
 	PyObject *item, *index;
