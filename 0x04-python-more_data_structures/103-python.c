@@ -79,7 +79,7 @@ void print_python_list(PyObject *p)
 			index = PyLong_FromSsize_t(i);
 			item = PyObject_GetItem(p, index);
 			printf("%s\n", return_type(item));
-			if (PyBytes_Check(item) || PyUnicode_Check(item))
+			if (PyBytes_Check(item))
 				print_python_bytes(item);
 		}
 	}
