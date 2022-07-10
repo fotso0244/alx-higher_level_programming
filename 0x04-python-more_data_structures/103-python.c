@@ -51,7 +51,7 @@ char *return_type(PyObject *p)
 void print_python_list(PyObject *p)
 {
 	Py_ssize_t i, n;
-	PyObject *item;
+	PyObject *item, *index;
 
 	n = PyList_Size(p);
 	printf("[*] Python list info\n");
@@ -62,7 +62,8 @@ void print_python_list(PyObject *p)
 		for (i = 0; i <= n - 1; i++)
 		{
 			printf("Element %d: ", (int)i);
-			item = PyList_GetItem(p, i);
+			index = PyLong_FromSsize_t(i);
+			item = PyObject_GetItem(p, index);
 			printf("%s\n", return_type(item));
 			if (PyBytes_Check(item) || PyUnicode_Check(item))
 				print_python_bytes(item);
