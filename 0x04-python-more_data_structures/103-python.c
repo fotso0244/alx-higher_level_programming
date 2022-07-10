@@ -18,7 +18,10 @@ void print_python_bytes(PyObject *p)
 		if (l != 10) 
 			printf("%d%s", (int)l + 1, " bytes: ");
 		else
+		{
 			printf("%d%s", (int)l, " bytes: ");
+			l = 9;
+		}
 		for (i = 0; i <= l; i++)
 		{
 			printf("%02x", str[i]);
